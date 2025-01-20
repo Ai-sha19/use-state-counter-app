@@ -4,7 +4,7 @@ const App = () => {
   let [count, setCount] = useState(0);
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-900 to-purple-900 flex items-center justify-center px-4 sm:px-0"> {/* Padding added to prevent screen edges */}
+    <div className="min-h-screen bg-gradient-to-r from-blue-900 to-purple-900 flex items-center justify-center px-4 sm:px-0">
       <div className="bg-white p-8 rounded-xl shadow-2xl w-full max-w-md sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"> 
         <h1 className="text-4xl sm:text-3xl font-bold mb-6 text-center text-pink-600">Counter App</h1> 
         <div className="bg-pink-100 p-4 rounded-lg text-center text-3xl sm:text-2xl font-semibold mb-4">{count}</div> 
